@@ -1,0 +1,87 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx400d5d4d-35d5-fa7e-947e-72b197532863" entityID="https://sapiolife--partial.my.salesforce.com" validUntil="2032-02-02T11:53:55.656Z">
+<ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx400d5d4d-35d5-fa7e-947e-72b197532863">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>tu5LlZluX5gHj2ZonAmo2Cn/8WaxMaWS0TaTMoezi/0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue> GTvlLAvlrOCLpWQ5frTpYu2w2N5CNU7MqAIVKOOXfQDz+m4f7aMqTGRRwp2C/wI2nz7KowYBaEr/ 1tMAyM7dNwi6Of27b5SXoIW9AYTQTVSKCYANX6H6iY8u8Mv0RY2UHL17rZQHfMNv2n57O+F7ruBw 9R5Cke4fYJ+yrhJ73Z4v3XR3Furu3QPzH2aivus+Ld+A2aymSLHwCKtkoyKkwPVJI8Nup08HIRxq BLbgIrhOv0i8UtJapNgcNAKHEPsWAxDtgfookik04ZGQNH0l1lMelCcIgKyaFZpN8IXseh4YBi9d JIceReNLM+WI9LCIHqLCtY1v7aiOPVAMs6SXFQ== </ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus> xGxHekBY6Bggd+Ex9K0oRrIYb1H7jXSoYyPAcY9MDHHu0z4ycJqUBiysvppIJVuFPWNcR+c3GlPO 1gCk1G5pEhFC1uwuFclAGU6cq/1czZ1ScS0i/fo0ta6Wy7cMUEpVZi2KTap6dlorImzxWXC1HmuF KIbgjxzHvsLAaibE/lxYQrCtdptu05vYJj7RXwoKIdyi0oRQjsScoz7hIHGpWjOOPhvFevW2sWOd aCFKDKeaPqOvwcMrE67rJaXOsWqMlzo2nBKodTybw8VidBVAO0snCj4sCKiFbo6ubKHEgZ6uTPxN xMXjKbDfTLqmndYubkjdvkUZ0v0BwydB36RqLw== </ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate> MIIEHzCCAwegAwIBAgIUOqFxktBEpEuN7L5ER27IqVIKFy4wDQYJKoZIhvcNAQELBQAwgZ4xCzAJ BgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTWlsYW4xEjAQBgNVBAoMCVNhcGlv bGlmZTESMBAGA1UECwwJU2FwaW9saWZlMRIwEAYDVQQDDAlTYXBpb2xpZmUxMzAxBgkqhkiG9w0B CQEWJGd0ZXNzaXRvcmVAYXRsYW50aWMtdGVjaG5vbG9naWVzLmNvbTAeFw0yMjAyMDMxMDU0NTZa Fw0yMzAyMDMxMDU0NTZaMIGeMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDjAMBgNVBAcM BU1pbGFuMRIwEAYDVQQKDAlTYXBpb2xpZmUxEjAQBgNVBAsMCVNhcGlvbGlmZTESMBAGA1UEAwwJ U2FwaW9saWZlMTMwMQYJKoZIhvcNAQkBFiRndGVzc2l0b3JlQGF0bGFudGljLXRlY2hub2xvZ2ll cy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDEbEd6QFjoGCB34TH0rShGshhv UfuNdKhjI8Bxj0wMce7TPjJwmpQGLKy+mkglW4U9Y1xH5zcaU87WAKTUbmkSEULW7C4VyUAZTpyr /VzNnVJxLSL9+jS1rpbLtwxQSlVmLYpNqnp2WisibPFZcLUea4UohuCPHMe+wsBqJsT+XFhCsK12 m27Tm9gmPtFfCgoh3KLShFCOxJyjPuEgcalaM44+G8V69baxY51oIUoMp5o+o6/BwysTruslpc6x aoyXOjacEqh1PJvDxWJ0FUA7SycKPiwIqIVujq5socSBnq5M/E3ExeMpsN9Muqad1i5uSN2+RRnS /QHDJ0HfpGovAgMBAAGjUzBRMB0GA1UdDgQWBBSVIWCrQu+JRTKziSqDfXKT5bXijjAfBgNVHSME GDAWgBSVIWCrQu+JRTKziSqDfXKT5bXijjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUA A4IBAQByeQRFejErqZDt2U50bJA2C+u+THGHOQoyGOu6Gs0++x7YL1U+7oFdBzhuxMa7864WidZq cDVYHpHeOOOeZYPcwj1uKGQNBuVRWN2E5pMKKQXrwP/KYek2h3pCoFOPiXvfcP6FVUP9CEMamrcL I0YYv0mLzmEjYCj3OQM7l5lLIO7tqdvXMKHtujLAHvYauCp95O3r7yxwqxwg7YB7eBMDUZLvpFn8 71L+vPGy3iSeJk0PRw6u7ZTKPlgbYiJSVZ3j18346GYZZ7OH4D42CDPnp+SinkW4nAW9JhJn1K+4 fqLOx3bTsw7N5Frqpu7wOZ1sQuy1H9EpvbkJ+75Xj9nK </ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIEMzCCAxugAwIBAgIUGOwZ+gJrTHQLuvx38kmZWzvVrygwDQYJKoZIhvcNAQEL BQAwgagxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTWls YW4xEjAQBgNVBAoMCVNhcGlvbGlmZTEMMAoGA1UECwwDQ1JNMSIwIAYDVQQDDBlB dGxhbnRpYyBUZWNobm9sb2dpZXMuY29tMTMwMQYJKoZIhvcNAQkBFiRndGVzc2l0 b3JlQGF0bGFudGljLXRlY2hub2xvZ2llcy5jb20wHhcNMjIwMjAyMTE0ODUzWhcN MjMwMjAyMTE0ODUzWjCBqDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ4w DAYDVQQHDAVNaWxhbjESMBAGA1UECgwJU2FwaW9saWZlMQwwCgYDVQQLDANDUk0x IjAgBgNVBAMMGUF0bGFudGljIFRlY2hub2xvZ2llcy5jb20xMzAxBgkqhkiG9w0B CQEWJGd0ZXNzaXRvcmVAYXRsYW50aWMtdGVjaG5vbG9naWVzLmNvbTCCASIwDQYJ KoZIhvcNAQEBBQADggEPADCCAQoCggEBALXh+A8B1bIFtOM0jMVIy8wbbcsPyjJw rBI77ARbNuKU/hELPQI1e1yScC5RkAC/fa+0kMxrvOZ9LOw9vg6yeiS+LmjKXXAo zG1q3se9GxgDQ+RXgQFN4/kU62grdmwlzTeV9TmiwbJ3jq/TXVilYuMVp9Imupp/ MBeqaDjnxq5MhoRr17tDAkMAK7gUQNFqi6WopNlvY7+ih9a0umkFTimxWgDy/vkg reytHrB3cw45K2JxPqfBAEElhCHZ6sTeOzMA9PPmy9GhikxrulQNVyryDm2BTTmh IgfdET+jriffM6PMsfS9fbs5AmF1zllvEZ1EWOcW2SUTegvySSiMSgsCAwEAAaNT MFEwHQYDVR0OBBYEFPdg6m2XYRFG8GDShWsdisLtdQxrMB8GA1UdIwQYMBaAFPdg 6m2XYRFG8GDShWsdisLtdQxrMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQEL BQADggEBAHaTqpaDgluwIUQ5xVg/YgqsVojJqbNfRBhqSUGRipuT3ZJdxeeM+Mhn GRCCBar5NIZyvNfi/gZL8HSzKta3L2Nmr25rxUTYAPyrdtD1KdEZtyyjHeCwGsIE p3P2QP62WvLj4asOUHAYt3qhDkSee5qG0MCZ2ww4VFw3neZkaFE/MPS8faU7qQMo KKgBQ+EEKfLkHrtnSETcceS99pkb+xb3t7HNSvgSEKlnhw5WMhAmOhQh/e10hgxw 38kPwRayzbrlJtTl2IkHN9W1TVP0L3bX/5svT41KiRlw8qT5J/6yrJBSLJ7TjF1k /5DI699/T7/vNQZX2yftot4V/wluQao=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sapiolife--partial.my.salesforce.com/services/auth/sp/saml2/logout"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sapiolife--partial.my.salesforce.com/services/auth/sp/saml2/logout"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://partial-sapiolife.cs107.force.com/identityprovider/services/auth/sp/saml2/logout"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://partial-sapiolife.cs107.force.com/identityprovider/services/auth/sp/saml2/logout"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://partial-sapiolife.cs107.force.com/identity/services/auth/sp/saml2/logout"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://partial-sapiolife.cs107.force.com/identity/services/auth/sp/saml2/logout"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://partial-sapiolife.cs107.force.com/medicalteams/services/auth/sp/saml2/logout"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://partial-sapiolife.cs107.force.com/medicalteams/services/auth/sp/saml2/logout"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://partial-sapiolife.cs107.force.com/services/auth/sp/saml2/logout"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://partial-sapiolife.cs107.force.com/services/auth/sp/saml2/logout"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sapiolife--partial.my.salesforce.com" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://partial-sapiolife.cs107.force.com/identityprovider/login" index="1"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://partial-sapiolife.cs107.force.com/identity/login" index="2"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://partial-sapiolife.cs107.force.com/medicalteams/login" index="3"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://partial-sapiolife.cs107.force.com/login" index="4"/>
+<md:AttributeConsumingService index="0" isDefault="true">
+<md:ServiceName xml:lang="en">SPID Attributes for Sapiolife</md:ServiceName>
+<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="it">Sapiolife</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="it">Sapiolife</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="it">https://www.sapiolife.it/</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="other">
+<md:Extensions>
+<spid:VATNumber>IT12345678901</spid:VATNumber>
+<spid:FiscalCode>XYZABCAAMGGJ000W</spid:FiscalCode>
+<spid:Public/>
+</md:Extensions>
+<md:EmailAddress>tech-info@example.org</md:EmailAddress>
+<md:TelephoneNumber>+398472345634785</md:TelephoneNumber>
+</md:ContactPerson>
+</md:EntityDescriptor>
